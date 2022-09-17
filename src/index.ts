@@ -4,8 +4,10 @@
  * @LastEditors: wuqinfa
  * @Description: 
  */
-// import sum from '@/utils/sum';
-import sum from './utils/sum';
+import 'module-alias/register';
+
+import sum from '@/utils/sum';
+// import sum from './utils/sum';
 
 const first: number = 1;
 const second: number = 3;

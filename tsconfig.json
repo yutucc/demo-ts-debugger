@@ -4,9 +4,12 @@
     "module": "commonjs",
     "outDir": "out",
     "sourceMap": true,
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     },
-  }
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
